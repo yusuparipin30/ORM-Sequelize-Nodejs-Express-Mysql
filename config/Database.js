@@ -1,7 +1,7 @@
 //1. import sequelize
 import {Sequelize} from "sequelize";
 
-const db = new Sequelize('upload_db', 'root','',{
+const db = new Sequelize('orm_db', 'root','',{
     host: 'localhost',
     dialect: "mysql"
 });
